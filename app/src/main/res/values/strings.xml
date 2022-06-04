@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">StudyAPI</string>
+
+    <!-- search hint -->
+    <string name="photo_search_term_hint">사진검색</string>
+    <string name="user_search_term_hint">사용자검색</string>
+
+    <!-- helperText -->
+    <string name="none_search_term_text">검색어를 입력해주세요.</string>
+
+    <!-- 12+ text input -->
+    <string name="over_search_term_text">검색어는 12자까지만 입력 가능합니다.</string>
+
+    <!-- photo app bar -->
+    <string name="photo_page_title">사진 검색</string>
+    <string name="app_bar_search">검색</string>
+    <string name="description_app_bar_search">사진을 검색한다.</string>
+    <string name="app_bar_more">더보기</string>
+    <string name="description_app_bar_more">더보기 메뉴</string>
+
+    <!-- photo contents information text -->
+    <string name="photo_upload_date">2014년\n11월 18일</string>
+
+</resources>
