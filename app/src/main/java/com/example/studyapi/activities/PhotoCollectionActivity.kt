@@ -358,10 +358,12 @@ class PhotoCollectionActivity: AppCompatActivity(),
         Log.d(TAG, "PhotoCollectionActivity - handleSearchViewUi() called / size : ${this.searchHistoryList.size}")
 
         if(this.searchHistoryList.size > 0) {
+            binding.linearSearchHistoryView.visibility = View.VISIBLE
             binding.searchHistoryRecyclerView.visibility = View.VISIBLE
             binding.searchHistoryRecyclerViewLabel.visibility = View.VISIBLE
             binding.clearSearchHistoryButton.visibility = View.VISIBLE
         } else {
+            binding.linearSearchHistoryView.visibility = View.INVISIBLE
             binding.searchHistoryRecyclerView.visibility = View.INVISIBLE
             binding.searchHistoryRecyclerViewLabel.visibility = View.INVISIBLE
             binding.clearSearchHistoryButton.visibility = View.INVISIBLE
